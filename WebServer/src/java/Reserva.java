@@ -7,7 +7,7 @@ package agenciawebservice;
 import java.util.Date;
 /**
  *
- * @author Maluz and Alex
+ * @author Maria and Ale
  */
 public class Reserva implements java.io.Serializable {
     private int numReserva;
@@ -16,5 +16,45 @@ public class Reserva implements java.io.Serializable {
     private String origen;
     private String destino;
     private Titular titular;
+
+    public void setNumReserva(int numCuenta) {
+	this.numReserva = numReserva;
+    }
+    public void setTitular(Titular titular) {
+	this.titular = titular;
+    }
+    public void setIda(Date ida) {
+	this.ida = ida;
+    }
+    public void setVuelta(Date vuelta) {
+	this.vuelta= vuelta;
+    }
+    public void setOrigen(String origen) {
+	this.origen= origen;
+    }
+     public void setDestino(String destino) {
+	this.destino= destino;
+    }
+    
+    public int getNumReserva() {
+	return this.numReserva;
+    }
+    public Titular getTitular() {
+	return this.titular;
+    }
+    public Date getIda() {
+	return this.ida;
+    }
+    public Date getVuelta() {
+	return this.vuelta;
+    }
+    public String getOrigen() {
+	return this.origen;
+    }
+    public String getDestino() {
+	return this.destino;
+    }
+
+    
 
 }
