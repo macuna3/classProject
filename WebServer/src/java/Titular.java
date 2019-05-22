@@ -7,12 +7,25 @@ package agenciawebservice;
 import java.util.Date;
 /**
  *
- * @author Maria and Alex
+ * @author Maria and Ale
  */
 public class Titular implements java.io.Serializable {
 
     private String nombre;
     private String dni;
 
- 
+    public void setNombre(String nombre) {
+	this.nombre = nombre;
+    }
+    public void setDni(String dni) {
+	this.dni = dni;
+    }
+    
+    public String getNombre() {
+	return this.nombre;
+    }
+    public String getDni() {
+	return this.dni;
+    }
+
 }
