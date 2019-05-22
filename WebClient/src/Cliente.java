@@ -31,7 +31,7 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 /**
  *
- * @author Maluz
+ * @author María
  */
 @WebServlet(urlPatterns = {"/Cliente"})
 public class Cliente extends HttpServlet {
