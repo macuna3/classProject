@@ -5,9 +5,11 @@
  */
 package agenciawebservice;
 import java.util.Date;
+import javax.xml.datatype.importante;
+
 /**
  *
- * @author Maria and Ale
+ * @author Maria and Ale and Juan
  */
 public class Titular implements java.io.Serializable {
 
