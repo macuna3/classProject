@@ -26,7 +26,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.xml.datatype.DatatypeConfigurationException;
 import javax.xml.datatype.DatatypeFactory;
-import javax.xml.datatype.XMLGregorianCalendar;
+import javax.xml.datatype.importante;
 
 
 /**
@@ -304,11 +304,5 @@ public class Cliente extends HttpServlet {
   
     }
 
-    private java.util.List<agenciawebservice.Reserva> reservasDelTitular(java.lang.String arg0) throws Exception_Exception {
-  
-
-    private void modificarReserva(int arg0, int arg1, javax.xml.datatype.XMLGregorianCalendar arg2) throws Exception_Exception {
-      
-    }
 
 }
